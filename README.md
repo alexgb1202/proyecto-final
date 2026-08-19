@@ -139,6 +139,12 @@ proyecto-final
 2. Instalar dependencias
 3. Ejecutar el notebook
 
+### Nota sobre el archivo `ventas.csv`
+El archivo `Data/3_processed/ventas.csv` no se incluye en el repositorio porque supera el límite de 100MB impuesto por GitHub.  
+Este archivo se genera automáticamente ejecutando el notebook `3_analisis.ipynb`.  
+Por tanto, cualquier usuario puede reproducir el dataset ejecutando dicho notebook en su entorno local.
+
+
 ## 6. Limpieza y transformación de los datos
 
 Durante el proceso de preparación de los datasets se realizaron múltiples tareas de depuración, estandarización y creación de nuevas variables con el objetivo de dejar los datos listos para el análisis y el posterior merge entre tablas.
@@ -330,35 +336,35 @@ En esta sección se presentan las principales visualizaciones obtenidas durante 
 
 ### 📊 Grafico temporal de ventas
 
-![analisis temporal de ventas](../proyecto-final/ecommerce-sales-analysis/images/img1.png)
+![analisis temporal de ventas](ecommerce-sales-analysis/images/img1.png)
 
 ---
 
 ### Productos mas vendidos y que más dinero generan
 
-![productos](../proyecto-final/ecommerce-sales-analysis/images/img2.png)
+![productos](ecommerce-sales-analysis/images/img2.png)
 
 ---
 
 ### Cancelaciones en el tiempo
 
-![Cancelaciones](../proyecto-final/ecommerce-sales-analysis/images/img3.png)
+![Cancelaciones](ecommerce-sales-analysis/images/img3.png)
 
 ---
 
 ### Cantidad vendida y dinero generado por cada pais
 
-![Paises](../proyecto-final/ecommerce-sales-analysis/images/img4.png)
+![Paises](ecommerce-sales-analysis/images/img4.png)
 
 ---
 
 ### Facturacion por cliente
 
-![clientes](../proyecto-final/ecommerce-sales-analysis/images/img5.png)
+![clientes](ecommerce-sales-analysis/images/img5.png)
 
 #### Relacion ticket medio con pib per capita
 
-![relacion](../proyecto-final/ecommerce-sales-analysis/images/img6.png)
+![relacion](ecommerce-sales-analysis/images/img6.png)
 
 ---
 
