@@ -1,0 +1,5 @@
+pandas
+lxml # Para parsear html y poder scrapear tablas
+numpy
+matplotlib
+seaborn
